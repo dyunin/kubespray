@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+ansible = "==2.7.12"
+netaddr = "==0.7.19"
+pbr = "==5.2.0"
+hvac = "==0.8.2"
+jmespath = "==0.9.4"
+Jinja2 = "==2.10.1"
+"ruamel.yaml" = "==0.15.96"
+
+[requires]
+python_version = "3.6"
